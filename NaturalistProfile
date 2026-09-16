@@ -1,0 +1,329 @@
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   K4PRA'S TERRITORY
+   Version 0.1 — FOUNDATION
+   ========================================================= */
+
+
+/* =========================================================
+   COLOUR SYSTEM
+   ========================================================= */
+
+:root {
+
+    --archive-black: #10130e;
+    --archive-deep: #182016;
+
+    --forest-dark: #222c1d;
+    --forest: #2f3927;
+
+    --olive-dark: #3d4730;
+    --olive: #4f5a3c;
+    --moss: #687253;
+    --sage: #7e876c;
+
+    --paper-dark: #a5a684;
+    --paper: #c4c39f;
+    --paper-light: #d4d2ae;
+
+    --line: #596247;
+}
+
+
+/* =========================================================
+   GENERAL PAGE
+   ========================================================= */
+
+html,
+body {
+
+    background-color: var(--archive-black) !important;
+
+    color: var(--paper) !important;
+
+}
+
+
+/* =========================================================
+   BODY TEXT
+   ========================================================= */
+
+body {
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 14px;
+
+    line-height: 1.55;
+
+}
+
+
+/* =========================================================
+   LINKS
+   ========================================================= */
+
+a,
+a:visited {
+
+    color: var(--paper) !important;
+
+    text-decoration: none;
+
+    transition:
+        color 0.2s ease,
+        opacity 0.2s ease;
+
+}
+
+
+a:hover {
+
+    color: var(--sage) !important;
+
+    opacity: 0.85;
+
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.main {
+
+    background:
+        rgba(24, 32, 22, 0.96)
+        !important;
+
+    color:
+        var(--paper)
+        !important;
+
+}
+
+
+/* =========================================================
+   TOP NAVIGATION
+   ========================================================= */
+
+.topbar {
+
+    background:
+        var(--forest-dark)
+        !important;
+
+    color:
+        var(--paper-light)
+        !important;
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+/* =========================================================
+   GENERAL PANELS
+   ========================================================= */
+
+.panel {
+
+    background:
+        rgba(47, 57, 39, 0.88)
+        !important;
+
+    color:
+        var(--paper)
+        !important;
+
+    border:
+        1px solid var(--line)
+        !important;
+
+    box-shadow:
+        none
+        !important;
+
+}
+
+
+/* =========================================================
+   PANEL HEADERS
+   ========================================================= */
+
+.panel h1,
+.panel h2,
+.panel h3,
+.panel h4 {
+
+    color:
+        var(--paper-light)
+        !important;
+
+}
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color:
+        var(--paper-light)
+        !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-weight:
+        normal;
+
+    letter-spacing:
+        0.04em;
+
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.table {
+
+    background:
+        rgba(24, 32, 22, 0.95)
+        !important;
+
+    color:
+        var(--paper)
+        !important;
+
+    border:
+        1px solid var(--line)
+        !important;
+
+}
+
+
+/* =========================================================
+   TABLE HEADERS
+   ========================================================= */
+
+.table th,
+.table .top,
+.table .bottom,
+.table .left {
+
+    background:
+        var(--forest-dark)
+        !important;
+
+    color:
+        var(--paper-light)
+        !important;
+
+}
+
+
+/* =========================================================
+   TABLE CONTENT
+   ========================================================= */
+
+.table .right {
+
+    background:
+        rgba(47, 57, 39, 0.9)
+        !important;
+
+    color:
+        var(--paper)
+        !important;
+
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+   ========================================================= */
+
+input,
+textarea,
+select {
+
+    background:
+        #20271b
+        !important;
+
+    color:
+        var(--paper-light)
+        !important;
+
+    border:
+        1px solid var(--line)
+        !important;
+
+}
+
+
+/* =========================================================
+   PROGRESS BARS
+   ========================================================= */
+
+.progress {
+
+    background:
+        var(--archive-black)
+        !important;
+
+    border:
+        1px solid var(--line)
+        !important;
+
+}
+
+
+.progress-bar {
+
+    background:
+        var(--olive)
+        !important;
+
+}
+
+
+/* =========================================================
+   IMAGES
+   ========================================================= */
+
+img {
+
+    image-rendering:
+        auto;
+
+}
+
+
+/* =========================================================
+   SELECTION
+   ========================================================= */
+
+::selection {
+
+    background:
+        var(--olive);
+
+    color:
+        var(--paper-light);
+
+}
