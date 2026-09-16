@@ -327,3 +327,20 @@ img {
         var(--paper-light);
 
 }
+
+/* =========================================================
+   NATURALIST ARCHIVE — V0.2 TEST
+   ========================================================= */
+
+body {
+    background-color: #10130e !important;
+}
+
+.main {
+    background-color: #182016 !important;
+}
+
+.panel {
+    background-color: #293522 !important;
+    border: 1px solid #596247 !important;
+}
