@@ -459,3 +459,108 @@ hr {
     }
 
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.2.1 — COLOR OVERRIDE
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   GENERAL LIGHT BACKGROUNDS
+   --------------------------------------------------------- */
+
+body,
+.container,
+.content {
+    background-color: var(--archive-black) !important;
+}
+
+
+/* ---------------------------------------------------------
+   WHITE CONTENT AREAS
+   --------------------------------------------------------- */
+
+.bg-white,
+.bg-light,
+.well {
+    background-color: var(--forest-dark) !important;
+    color: var(--paper) !important;
+}
+
+
+/* ---------------------------------------------------------
+   STANDARD BUTTONS
+   --------------------------------------------------------- */
+
+button,
+.btn,
+input[type="button"],
+input[type="submit"] {
+    background-color: var(--forest-dark) !important;
+    color: var(--paper-light) !important;
+
+    border: 1px solid var(--line) !important;
+
+    box-shadow: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   BUTTON HOVER
+   --------------------------------------------------------- */
+
+button:hover,
+.btn:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background-color: var(--olive-dark) !important;
+    color: var(--paper-light) !important;
+}
+
+
+/* ---------------------------------------------------------
+   STANDARD BORDERS
+   --------------------------------------------------------- */
+
+table,
+td,
+th {
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   TEXTAREAS / COMMENT BOXES
+   --------------------------------------------------------- */
+
+textarea,
+input,
+select {
+    background-color: var(--forest-dark) !important;
+    color: var(--paper-light) !important;
+
+    border: 1px solid var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   LIOden ORANGE OVERRIDE
+   --------------------------------------------------------- */
+
+.navbar,
+.navbar-default,
+.navbar-inverse {
+    background-color: var(--forest-dark) !important;
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   ARCHIVE ACCENT
+   --------------------------------------------------------- */
+
+.text-success,
+.text-primary {
+    color: var(--sage) !important;
+}
