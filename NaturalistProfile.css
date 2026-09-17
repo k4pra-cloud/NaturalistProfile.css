@@ -564,3 +564,71 @@ select {
 .text-primary {
     color: var(--sage) !important;
 }
+./* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.2.2 — ARCHIVE BUTTONS
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   SECONDARY ARCHIVE BUTTONS
+   --------------------------------------------------------- */
+
+.button,
+.button-box,
+.btn-default,
+.btn-primary,
+.btn-secondary {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border:
+        1px solid var(--line) !important;
+
+    box-shadow:
+        none !important;
+}
+
+
+/* ---------------------------------------------------------
+   BUTTON LINKS
+   --------------------------------------------------------- */
+
+.button a,
+.button-box a,
+.btn-default a,
+.btn-primary a,
+.btn-secondary a {
+    color: var(--paper-light) !important;
+}
+
+
+/* ---------------------------------------------------------
+   BUTTON HOVER
+   --------------------------------------------------------- */
+
+.button:hover,
+.button-box:hover,
+.btn-default:hover,
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: var(--olive-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border-color: var(--moss) !important;
+}
+
+
+/* ---------------------------------------------------------
+   BUTTON TEXT
+   --------------------------------------------------------- */
+
+.button *,
+.button-box *,
+.btn-default *,
+.btn-primary *,
+.btn-secondary * {
+    color: inherit !important;
+}
