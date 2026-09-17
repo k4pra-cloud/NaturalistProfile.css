@@ -632,3 +632,52 @@ select {
 .btn-secondary * {
     color: inherit !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.2.2 — ARCHIVE BUTTONS // FIX
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   LOWER ARCHIVE BOXES
+   --------------------------------------------------------- */
+
+.main .left {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border:
+        1px solid var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   TEXT INSIDE ARCHIVE BOXES
+   --------------------------------------------------------- */
+
+.main .left a,
+.main .left a:visited {
+    color: var(--paper-light) !important;
+}
+
+
+/* ---------------------------------------------------------
+   ARCHIVE BOX HOVER
+   --------------------------------------------------------- */
+
+.main .left:hover {
+    background-color: var(--olive-dark) !important;
+
+    border-color: var(--moss) !important;
+}
+
+
+/* ---------------------------------------------------------
+   TEXT HOVER
+   --------------------------------------------------------- */
+
+.main .left:hover a {
+    color: var(--paper-light) !important;
+}
