@@ -681,3 +681,89 @@ select {
 .main .left:hover a {
     color: var(--paper-light) !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.3 — ARCHIVE HEADER & PAPER
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   ARCHIVE CONTENT
+   --------------------------------------------------------- */
+
+.container.main {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper) !important;
+
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   LEFT CONTENT AREA
+   --------------------------------------------------------- */
+
+.col-md-9 {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper) !important;
+}
+
+
+/* ---------------------------------------------------------
+   BREADCRUMB
+   --------------------------------------------------------- */
+
+.breadcrumb {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper) !important;
+
+    border:
+        1px solid var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   BREADCRUMB LINKS
+   --------------------------------------------------------- */
+
+.breadcrumb a,
+.breadcrumb a:visited {
+    color: var(--paper-light) !important;
+}
+
+
+/* ---------------------------------------------------------
+   CURRENT PAGE
+   --------------------------------------------------------- */
+
+.breadcrumb .active {
+    color: var(--sage) !important;
+}
+
+
+/* ---------------------------------------------------------
+   MAIN ARCHIVE TITLE
+   --------------------------------------------------------- */
+
+h1 {
+    color: var(--paper-light) !important;
+
+    font-family: Georgia, "Times New Roman", serif !important;
+
+    letter-spacing: 0.04em;
+}
+
+
+/* ---------------------------------------------------------
+   SMALL ARCHIVE HEADERS
+   --------------------------------------------------------- */
+
+h3 {
+    color: var(--paper-light) !important;
+
+    font-family: Georgia, "Times New Roman", serif !important;
+}
