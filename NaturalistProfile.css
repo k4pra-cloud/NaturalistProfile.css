@@ -329,18 +329,133 @@ img {
 }
 
 /* =========================================================
-   NATURALIST ARCHIVE — V0.2 TEST
+   THE NATURALIST ARCHIVE
+   V0.2 — ARCHIVE FRAME
    ========================================================= */
 
+
+/* ---------------------------------------------------------
+   ARCHIVE BACKGROUND
+   --------------------------------------------------------- */
+
+html,
 body {
-    background-color: #10130e !important;
+    background-color: var(--archive-black) !important;
+
+    background-image:
+        linear-gradient(
+            rgba(24, 32, 22, 0.35),
+            rgba(16, 19, 14, 0.35)
+        ),
+        repeating-linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.015) 0px,
+            rgba(255, 255, 255, 0.015) 1px,
+            transparent 1px,
+            transparent 4px
+        ) !important;
+
+    background-attachment: fixed;
 }
+
+
+/* ---------------------------------------------------------
+   MAIN ARCHIVE
+   --------------------------------------------------------- */
 
 .main {
-    background-color: #182016 !important;
+    background-color: rgba(24, 32, 22, 0.97) !important;
+
+    border: 1px solid var(--line) !important;
+
+    box-shadow:
+        0 0 0 1px rgba(16, 19, 14, 0.8),
+        0 8px 25px rgba(0, 0, 0, 0.25) !important;
 }
 
+
+/* ---------------------------------------------------------
+   ARCHIVE PANELS
+   --------------------------------------------------------- */
+
 .panel {
-    background-color: #293522 !important;
-    border: 1px solid #596247 !important;
+    background-color: rgba(47, 57, 39, 0.92) !important;
+
+    border: 1px solid var(--line) !important;
+
+    border-radius: 2px !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(212, 210, 174, 0.04),
+        0 2px 8px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+/* ---------------------------------------------------------
+   PANEL HEADERS
+   --------------------------------------------------------- */
+
+.panel h1,
+.panel h2,
+.panel h3,
+.panel h4,
+.panel h5 {
+    color: var(--paper-light) !important;
+
+    border-bottom:
+        1px solid rgba(89, 98, 71, 0.7);
+
+    padding-bottom: 6px;
+
+    letter-spacing: 0.05em;
+}
+
+
+/* ---------------------------------------------------------
+   ARCHIVE LINKS
+   --------------------------------------------------------- */
+
+a,
+a:visited {
+    color: var(--paper) !important;
+}
+
+a:hover {
+    color: var(--sage) !important;
+
+    opacity: 1;
+}
+
+
+/* ---------------------------------------------------------
+   SUBTLE ARCHIVE DIVIDERS
+   --------------------------------------------------------- */
+
+hr {
+    border: 0 !important;
+
+    border-top:
+        1px solid var(--line) !important;
+
+    opacity: 0.8;
+}
+
+
+/* ---------------------------------------------------------
+   MOBILE SAFETY
+   --------------------------------------------------------- */
+
+@media (max-width: 600px) {
+
+    .main {
+        width: auto !important;
+
+        margin-left: 8px !important;
+        margin-right: 8px !important;
+    }
+
+    .panel {
+        border-radius: 2px !important;
+    }
+
 }
