@@ -767,3 +767,75 @@ h3 {
 
     font-family: Georgia, "Times New Roman", serif !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.4 — FIELD RECORDS
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   FIELD RECORD CELLS
+   --------------------------------------------------------- */
+
+.inner-table .left {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border:
+        1px solid var(--line) !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    letter-spacing: 0.02em;
+}
+
+
+/* ---------------------------------------------------------
+   FIELD RECORD VALUES
+   --------------------------------------------------------- */
+
+.inner-table .right {
+    background-color: var(--forest) !important;
+
+    color: var(--paper) !important;
+
+    border:
+        1px solid var(--line) !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+}
+
+
+/* ---------------------------------------------------------
+   FIELD RECORD HOVER
+   --------------------------------------------------------- */
+
+.inner-table .left:hover {
+    background-color: var(--olive-dark) !important;
+}
+
+.inner-table .right:hover {
+    background-color: var(--olive) !important;
+}
+
+
+/* ---------------------------------------------------------
+   FIELD RECORD LINKS
+   --------------------------------------------------------- */
+
+.inner-table a,
+.inner-table a:visited {
+    color: var(--paper-light) !important;
+}
+
+.inner-table a:hover {
+    color: var(--sage) !important;
+}
