@@ -839,3 +839,66 @@ h3 {
 .inner-table a:hover {
     color: var(--sage) !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.4.1 — CAVE RECORDS
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   CAVE RECORD CARDS
+   --------------------------------------------------------- */
+
+.cave-grid {
+    background-color: transparent !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAVE CARD LINKS
+   --------------------------------------------------------- */
+
+.cave-grid a {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border:
+        1px solid var(--line) !important;
+
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAVE CARD TEXT
+   --------------------------------------------------------- */
+
+.cave-grid a span,
+.cave-grid a div {
+    color: var(--paper-light) !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAVE CARD HOVER
+   --------------------------------------------------------- */
+
+.cave-grid a:hover {
+    background-color: var(--olive-dark) !important;
+
+    border-color: var(--moss) !important;
+
+    text-decoration: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAVE IMAGES
+   --------------------------------------------------------- */
+
+.cave-grid img {
+    border: 1px solid var(--line) !important;
+}
