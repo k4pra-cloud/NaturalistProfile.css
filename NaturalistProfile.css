@@ -902,3 +902,114 @@ h3 {
 .cave-grid img {
     border: 1px solid var(--line) !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.5 — ARCHIVE INDEX
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   INDEX TABLE
+   --------------------------------------------------------- */
+
+.table {
+    background-color: var(--forest-dark) !important;
+
+    border: 1px solid var(--line) !important;
+
+    color: var(--paper) !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX HEADER
+   --------------------------------------------------------- */
+
+.table th {
+    background-color: var(--olive-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border-color: var(--line) !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    letter-spacing: 0.04em;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX TOP / BOTTOM
+   --------------------------------------------------------- */
+
+.table .top,
+.table .bottom {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX LEFT CELLS
+   --------------------------------------------------------- */
+
+.table .left {
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper-light) !important;
+
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX RIGHT CELLS
+   --------------------------------------------------------- */
+
+.table .right {
+    background-color: var(--forest) !important;
+
+    color: var(--paper) !important;
+
+    border-color: var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX LINKS
+   --------------------------------------------------------- */
+
+.table a,
+.table a:visited {
+    color: var(--paper-light) !important;
+
+    text-decoration: none !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX LINK HOVER
+   --------------------------------------------------------- */
+
+.table a:hover {
+    color: var(--sage) !important;
+
+    text-decoration: underline !important;
+}
+
+
+/* ---------------------------------------------------------
+   INDEX DIVIDERS
+   --------------------------------------------------------- */
+
+.table td,
+.table th {
+    border-color: var(--line) !important;
+}
