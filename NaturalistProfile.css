@@ -4,7 +4,6 @@
    Version 0.1 — FOUNDATION
    ========================================================= */
 
-
 /* =========================================================
    COLOUR SYSTEM
    ========================================================= */
@@ -1237,4 +1236,71 @@ h3 {
     background-color: var(--olive-dark) !important;
 
     border-color: var(--moss) !important;
+}
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.7.1 — COMPACT PROJECT RECORD
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   PROJECT SPACING
+   --------------------------------------------------------- */
+
+.archive-project > div {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   PROJECT TITLE
+   --------------------------------------------------------- */
+
+.archive-project-title {
+    padding-bottom: 5px !important;
+
+    margin-bottom: 8px !important;
+
+    line-height: 1.2 !important;
+}
+
+
+/* ---------------------------------------------------------
+   ARCHIVE ID
+   --------------------------------------------------------- */
+
+.archive-project-id {
+    margin-top: 0 !important;
+
+    margin-bottom: 10px !important;
+
+    line-height: 1.2 !important;
+}
+
+
+/* ---------------------------------------------------------
+   PROJECT RECORDS
+   --------------------------------------------------------- */
+
+.archive-project-record {
+    padding: 6px 8px !important;
+
+    margin-top: 5px !important;
+
+    margin-bottom: 0 !important;
+
+    line-height: 1.25 !important;
+}
+
+
+/* ---------------------------------------------------------
+   RECORD LABEL
+   --------------------------------------------------------- */
+
+.archive-project-record span {
+    margin-bottom: 3px !important;
+
+    line-height: 1.1 !important;
 }
