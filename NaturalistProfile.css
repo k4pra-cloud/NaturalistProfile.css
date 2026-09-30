@@ -1304,3 +1304,121 @@ h3 {
 
     line-height: 1.1 !important;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.8 — FIELD NOTES
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   FIELD NOTE
+   --------------------------------------------------------- */
+
+.archive-field-note {
+    margin: 16px 0 !important;
+
+    padding: 12px !important;
+
+    background-color: var(--forest-dark) !important;
+
+    color: var(--paper) !important;
+
+    border: 1px solid var(--line) !important;
+
+    box-shadow:
+        inset 0 1px 0 rgba(212, 210, 174, 0.03),
+        0 2px 6px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE HEADER
+   --------------------------------------------------------- */
+
+.field-note-header {
+    color: var(--paper-light) !important;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif !important;
+
+    font-size: 14px;
+
+    letter-spacing: 0.08em;
+
+    border-bottom:
+        1px solid var(--line);
+
+    padding-bottom: 5px;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE DATE
+   --------------------------------------------------------- */
+
+.field-note-date {
+    color: var(--sage) !important;
+
+    font-size: 10px;
+
+    letter-spacing: 0.08em;
+
+    margin-top: 5px !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE BODY
+   --------------------------------------------------------- */
+
+.field-note-body {
+    margin-top: 10px !important;
+
+    padding: 9px !important;
+
+    background-color: var(--forest) !important;
+
+    color: var(--paper) !important;
+
+    border-left:
+        2px solid var(--moss) !important;
+
+    line-height: 1.45;
+}
+
+
+/* ---------------------------------------------------------
+   OBSERVATION LABEL
+   --------------------------------------------------------- */
+
+.field-note-body span {
+    display: block;
+
+    color: var(--paper-light) !important;
+
+    font-size: 10px;
+
+    letter-spacing: 0.08em;
+
+    margin-bottom: 4px !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE SIGNATURE
+   --------------------------------------------------------- */
+
+.field-note-signature {
+    margin-top: 8px !important;
+
+    color: var(--sage) !important;
+
+    font-size: 10px;
+
+    text-align: right;
+
+    letter-spacing: 0.04em;
+}
