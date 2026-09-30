@@ -1422,3 +1422,86 @@ h3 {
 
     letter-spacing: 0.04em;
 }
+
+/* =========================================================
+   THE NATURALIST ARCHIVE
+   V0.8.1 — FIELD NOTE / COMPACT
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   NOTE CONTAINER
+   --------------------------------------------------------- */
+
+.archive-field-note {
+    margin: 12px 0 !important;
+
+    padding: 10px !important;
+
+    min-height: 0 !important;
+
+    height: auto !important;
+
+    border: 1px solid var(--line) !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE HEADER
+   --------------------------------------------------------- */
+
+.field-note-header {
+    margin: 0 !important;
+
+    padding-bottom: 4px !important;
+
+    line-height: 1.2 !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE DATE
+   --------------------------------------------------------- */
+
+.field-note-date {
+    margin: 4px 0 8px 0 !important;
+
+    line-height: 1.2 !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE BODY
+   --------------------------------------------------------- */
+
+.field-note-body {
+    margin: 0 !important;
+
+    padding: 7px 9px !important;
+
+    line-height: 1.3 !important;
+
+    min-height: 0 !important;
+}
+
+
+/* ---------------------------------------------------------
+   OBSERVATION LABEL
+   --------------------------------------------------------- */
+
+.field-note-body span {
+    margin: 0 0 3px 0 !important;
+
+    line-height: 1.1 !important;
+}
+
+
+/* ---------------------------------------------------------
+   NOTE SIGNATURE
+   --------------------------------------------------------- */
+
+.field-note-signature {
+    margin: 6px 0 0 0 !important;
+
+    line-height: 1.2 !important;
+}
